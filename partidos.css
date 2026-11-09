@@ -1,0 +1,129 @@
+
+/* CONFIGURACION GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f3f7;
+    color: #222;
+}
+
+/* CABECERA */
+
+header {
+    background-color: #101b36;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #c5cce0;
+    font-size: 16px;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 35px auto;
+}
+
+.titulo-partidos {
+    font-size: 21px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #d6a52c;
+    padding-bottom: 12px;
+}
+
+/* PARTIDOS */
+
+.partido {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* ESTADO */
+
+.estado {
+    color: #777;
+    font-size: 14px;
+    min-width: 85px;
+}
+
+/* EQUIPOS */
+
+.equipo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 190px;
+}
+
+.escudo {
+    font-size: 28px;
+}
+
+/* RESULTADOS */
+
+.resultado {
+    font-size: 30px;
+    font-weight: bold;
+    color: #101b36;
+}
+
+/* PIE DE PAGINA */
+
+footer {
+    background-color: #101b36;
+    color: white;
+    text-align: center;
+    padding: 22px;
+    margin-top: 50px;
+}
+
+/* ADAPTACION A MOVILES */
+
+@media (max-width: 650px) {
+
+    .partido {
+        flex-direction: column;
+        padding: 25px 10px;
+    }
+
+    .equipo {
+        min-width: auto;
+    }
+
+    .resultado {
+        font-size: 26px;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+
+}
