@@ -1,0 +1,186 @@
+/* ESTILOS GENERALES */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #222;
+}
+
+/* CABECERA */
+header {
+    background-color: #061642;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    color: #d5b45b;
+}
+
+/* MENU DE NAVEGACION */
+nav {
+    background-color: #102b68;
+    text-align: center;
+    padding: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d5b45b;
+}
+
+/* CONTENIDO PRINCIPAL */
+main {
+    width: 85%;
+    margin: 30px auto;
+}
+
+/* SECCIONES */
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #102b68;
+    border-bottom: 2px solid #d5b45b;
+    padding-bottom: 10px;
+}
+
+/* IMAGEN PRINCIPAL */
+#destacado {
+    text-align: center;
+}
+
+#destacado img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* PARTIDOS */
+article {
+    background-color: #eef2fa;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 4px solid #102b68;
+    border-radius: 5px;
+}
+
+article h3 {
+    color: #102b68;
+}
+
+/* EQUIPOS */
+ul {
+    line-height: 2;
+}
+
+/* CLASIFICACION */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: #102b68;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* PIE DE PAGINA */
+footer {
+    background-color: #061642;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer a {
+    color: #d5b45b;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* TITULO Y BOTON DE PARTIDOS */
+
+.titulo-partidos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.titulo-partidos h2 {
+    margin: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.boton-resultados {
+    background-color: #102b68;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.boton-resultados:hover {
+    background-color: #d5b45b;
+    color: #102b68;
+}
+
+/* ALINEAR TITULO Y BOTON DE PARTIDOS */
+
+#partidos .titulo-partidos {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100%;
+}
+
+#partidos .titulo-partidos h2 {
+    width: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-bottom: none !important;
+    flex: 0 0 auto !important;
+}
+
+#partidos .titulo-partidos a {
+    margin-left: auto;
+    display: block;
+}
+
+#partidos .boton-resultados {
+    display: inline-block;
+}
