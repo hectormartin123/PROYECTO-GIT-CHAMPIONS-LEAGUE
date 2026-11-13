@@ -129,11 +129,10 @@ footer a:hover {
 
 .titulo-partidos {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-    width: 100%;
-    margin-bottom: 20px;
+    align-items: center;
+    margin-bottom: 25px;
+
 }
 
 .titulo-partidos h2 {
