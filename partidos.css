@@ -126,4 +126,7 @@ footer {
         font-size: 23px;
     }
 
+    header h1 {
+        font-family: 'Courier New', Courier, monospace;
+    }
 }
